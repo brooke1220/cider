@@ -19,7 +19,7 @@ jobs:
     
     - run: go get github.com/yuin/goldmark
     
-    - run: github.com/yuin/goldmark-highlighting
+    - run: go get github.com/yuin/goldmark-highlighting
     
     - name: Build
       run: go build -o cider *.go
